@@ -11,9 +11,8 @@ const CustomerList = ({
       <Text style={styles.subHeader}> Customer List </Text>
       {customers.map(customer => (
         <View key={customer.id} style={styles.customerContainer}>
-          <Text>
-            {customer.name}, {customer.tel}
-          </Text>
+          <Text style={styles.columnName}>{customer.name}</Text>
+          <Text style={styles.columnTel}>{customer.tel}</Text>
           <View style={styles.actions}>
             <Button title="Edit" onPress={() => handleEdit(customer)} />
             <Button
@@ -45,5 +44,14 @@ const styles = StyleSheet.create({
   },
   actions: {
     flexDirection: 'row',
+    flex: 1,
+    justifyContent: 'flex-end',
+  },
+  columnName: {
+    flex: 1,
+  },
+  columnTel: {
+    flex: 1,
+    justifyContent: 'center',
   },
 });

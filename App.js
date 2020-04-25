@@ -226,7 +226,7 @@ const App = () => {
 
   const importData = () => {
     // console.log('MainBundlePath', RNFS.MainBundlePath);
-    // console.log('CachesDirectoryPath', RNFS.CachesDirectoryPath);
+    console.log('CachesDirectoryPath', RNFS.CachesDirectoryPath);
     // console.log('DocumentDirectoryPath', RNFS.DocumentDirectoryPath);
     // console.log('TemporaryDirectoryPath', RNFS.TemporaryDirectoryPath);
     // console.log('LibraryDirectoryPath', RNFS.LibraryDirectoryPath);
