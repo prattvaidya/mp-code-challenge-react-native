@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "react": "16.11.0",
-    "react-native": "0.62.2",
+    "react-native": "0.62.3",
     "react-native-fs": "^2.16.6",
     "react-native-uuid-generator": "^6.1.1",
     "realm": "^5.0.3"
